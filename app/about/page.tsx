@@ -1,3 +1,4 @@
+import Image from "next/image";
 const skills = [
   "HTML",
   "CSS",
@@ -18,9 +19,15 @@ export default function AboutPage() {
     <main className="mx-auto max-w-5xl px-6 py-16">
       <div className="grid gap-10 md:grid-cols-[260px_1fr]">
         <aside className="rounded-3xl bg-white p-6 text-center shadow">
-          <div className="mx-auto mb-4 flex h-32 w-32 items-center justify-center rounded-full bg-blue-100 text-4xl font-bold text-blue-700">
-            RA
-          </div>
+          <div className="mx-auto mb-4 overflow-hidden rounded-full shadow-lg">
+  <Image
+    src="/profile.png"
+    alt="Rod Raemon Alvero"
+    width={140}
+    height={140}
+    className="h-36 w-36 object-cover"
+  />
+</div>
 
           <h1 className="text-2xl font-bold">Rod Raemon Alvero</h1>
           <p className="mt-2 text-gray-600">
