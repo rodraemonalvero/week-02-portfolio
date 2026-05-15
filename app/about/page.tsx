@@ -1,4 +1,5 @@
 import Image from "next/image";
+
 const skills = [
   "HTML",
   "CSS",
@@ -20,19 +21,22 @@ export default function AboutPage() {
       <div className="grid gap-10 md:grid-cols-[260px_1fr]">
         <aside className="rounded-3xl border border-cyan-400/30 bg-slate-900/80 p-6 text-center shadow-2xl shadow-cyan-500/10 backdrop-blur-md">
           <div className="mx-auto mb-4 overflow-hidden rounded-full shadow-lg">
-  <Image
-    src="/profile.png"
-    alt="Rod Raemon Alvero"
-    width={140}
-    height={140}
-    className="h-36 w-36 object-cover"
-  />
-</div>
+            <Image
+              src="/profile.png"
+              alt="Rod Raemon Alvero"
+              width={140}
+              height={140}
+              className="h-36 w-36 object-cover"
+            />
+          </div>
 
-          <h1 className="text-2xl font-bold">Rod Raemon Alvero</h1>
+          <h1 className="text-2xl font-bold text-white">
+            Rod Raemon Alvero
+          </h1>
+
           <p className="mt-2 text-slate-400">
-  Computer Science Student
-</p>
+            Computer Science Student
+          </p>
 
           <div className="mt-6 space-y-2 text-sm">
             <a
@@ -54,6 +58,8 @@ export default function AboutPage() {
 
         <section>
           <h2 className="mb-4 text-3xl font-bold text-white">
+            About Me
+          </h2>
 
           <div className="space-y-4 text-slate-300">
             <p>
