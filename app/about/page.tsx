@@ -61,7 +61,7 @@ export default function AboutPage() {
             About Me
           </h2>
 
-          <div className="space-y-4 text-slate-300">
+          <div className="space-y-4 text-slate-700">
             <p>
               My name is Rod Raemon Alvero, and I am a Computer Science student
               interested in software development, cybersecurity, cloud
@@ -89,7 +89,7 @@ export default function AboutPage() {
             </p>
           </div>
 
-          <h3 className="mt-10 mb-4 text-2xl font-semibold text-cyan-300">
+          <h3 className="mt-10 mb-4 text-2xl font-semibold text-cyan-700">
             Skills and Technologies
           </h3>
 
@@ -97,7 +97,7 @@ export default function AboutPage() {
             {skills.map((skill) => (
               <li
                 key={skill}
-                className="rounded-xl border border-cyan-400/30 bg-slate-900/80 px-4 py-3 font-medium text-slate-100 shadow-lg backdrop-blur-md transition hover:border-cyan-300 hover:bg-slate-800"
+                className="rounded-xl border border-cyan-400/30 bg-slate-900/80 px-4 py-3 font-medium text-slate-200 shadow-lg backdrop-blur-md transition hover:border-cyan-300 hover:bg-slate-800"
               >
                 {skill}
               </li>

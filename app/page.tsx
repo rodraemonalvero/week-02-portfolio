@@ -9,16 +9,16 @@ export default function HomePage() {
             Computer Science Student
           </p>
 
-          <h1 className="mb-5 text-4xl font-bold tracking-tight text-white drop-shadow-[0_0_20px_rgba(34,211,238,0.35)] md:text-6xl">
+          <h1 className="mb-5 text-4xl font-bold tracking-tight text-slate-950 md:text-6xl">
             Hi, I’m Rod Raemon Alvero.
           </h1>
 
-          <p className="mb-6 text-xl text-slate-300">
+          <p className="mb-6 text-xl text-slate-700">
             Future Full Stack Developer focused on software development,
             cybersecurity, cloud deployment, and AI-powered applications.
           </p>
 
-          <p className="mb-8 text-slate-400">
+          <p className="mb-8 text-slate-600">
             I am building a strong foundation in modern web development using
             Next.js, React, Tailwind CSS, and GitHub. My goal is to create clean,
             useful, and secure applications that solve real problems.
@@ -34,7 +34,7 @@ export default function HomePage() {
 
             <Link
               href="/about"
-              className="rounded-xl border border-slate-700 px-6 py-3 font-medium text-slate-200 hover:bg-slate-800"
+              className="rounded-xl border border-slate-700 px-6 py-3 font-medium text-slate-800 hover:bg-slate-800"
             >
               Learn About Me
             </Link>
