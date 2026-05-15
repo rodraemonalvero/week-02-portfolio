@@ -18,7 +18,7 @@ export default function AboutPage() {
   return (
     <main className="mx-auto max-w-5xl px-6 py-16">
       <div className="grid gap-10 md:grid-cols-[260px_1fr]">
-        <aside className="rounded-3xl border border-slate-800 bg-slate-900 p-6 text-center shadow">
+        <aside className="rounded-3xl border border-cyan-500/20 bg-white/5 p-6 text-center shadow-2xl backdrop-blur-md">
           <div className="mx-auto mb-4 overflow-hidden rounded-full shadow-lg">
   <Image
     src="/profile.png"
@@ -91,7 +91,7 @@ export default function AboutPage() {
             {skills.map((skill) => (
               <li
                 key={skill}
-                className="rounded-xl border border-slate-800 bg-slate-900 px-4 py-3 font-medium text-slate-100 shadow"
+                className="rounded-xl border border-cyan-500/20 bg-white/5 px-4 py-3 font-medium text-slate-100 shadow-lg backdrop-blur-md hover:border-cyan-400 transition"
               >
                 {skill}
               </li>

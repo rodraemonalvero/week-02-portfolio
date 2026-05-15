@@ -9,7 +9,7 @@ export default function HomePage() {
             Computer Science Student
           </p>
 
-          <h1 className="mb-5 text-4xl font-bold tracking-tight text-slate-100 md:text-6xl">
+          <h1 className="mb-5 text-4xl font-bold tracking-tight text-white drop-shadow-[0_0_20px_rgba(34,211,238,0.35)] md:text-6xl">
             Hi, I’m Rod Raemon Alvero.
           </h1>
 
@@ -27,7 +27,7 @@ export default function HomePage() {
           <div className="flex flex-wrap gap-4">
             <Link
               href="/projects"
-              className="rounded-xl bg-cyan-500 px-6 py-3 font-medium text-slate-950 shadow hover:bg-cyan-400"
+              className="rounded-xl bg-gradient-to-r from-cyan-400 to-blue-500 px-6 py-3 font-medium text-slate-950 shadow hover:bg-cyan-400 hover:opacity-90"
             >
               View My Projects
             </Link>
