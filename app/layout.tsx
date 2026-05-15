@@ -14,8 +14,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="min-h-screen bg-gray-50 text-gray-900">
-        <nav className="border-b bg-white">
+      <body className="min-h-screen bg-slate-950 text-slate-100">
+        <nav className="border-b border-slate-800 bg-slate-900">
           <div className="mx-auto flex max-w-6xl flex-col gap-4 px-6 py-4 sm:flex-row sm:items-center sm:justify-between">
             <Link href="/" className="text-xl font-bold">
               Rod Raemon Alvero
@@ -39,7 +39,7 @@ export default function RootLayout({
 
         {children}
 
-        <footer className="mt-16 border-t bg-white py-6 text-center text-sm text-gray-600">
+        <footer className="mt-16 border-t border-slate-800 bg-slate-900 py-6 text-center text-sm text-slate-400">
           © 2026 Rod Raemon Alvero. Built with Next.js and Tailwind CSS.
         </footer>
       </body>

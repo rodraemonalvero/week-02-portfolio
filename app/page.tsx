@@ -5,20 +5,20 @@ export default function HomePage() {
     <main className="mx-auto max-w-6xl px-6 py-16">
       <section className="grid items-center gap-10 md:grid-cols-2">
         <div>
-          <p className="mb-3 text-sm font-semibold uppercase tracking-wide text-blue-600">
+          <p className="mb-3 text-sm font-semibold uppercase tracking-wide text-cyan-400">
             Computer Science Student
           </p>
 
-          <h1 className="mb-5 text-4xl font-bold tracking-tight text-gray-900 md:text-6xl">
+          <h1 className="mb-5 text-4xl font-bold tracking-tight text-slate-100 md:text-6xl">
             Hi, I’m Rod Raemon Alvero.
           </h1>
 
-          <p className="mb-6 text-xl text-gray-700">
+          <p className="mb-6 text-xl text-slate-300">
             Future Full Stack Developer focused on software development,
             cybersecurity, cloud deployment, and AI-powered applications.
           </p>
 
-          <p className="mb-8 text-gray-600">
+          <p className="mb-8 text-slate-400">
             I am building a strong foundation in modern web development using
             Next.js, React, Tailwind CSS, and GitHub. My goal is to create clean,
             useful, and secure applications that solve real problems.
@@ -27,22 +27,22 @@ export default function HomePage() {
           <div className="flex flex-wrap gap-4">
             <Link
               href="/projects"
-              className="rounded-xl bg-blue-600 px-6 py-3 font-medium text-white shadow hover:bg-blue-700"
+              className="rounded-xl bg-cyan-500 px-6 py-3 font-medium text-slate-950 shadow hover:bg-cyan-400"
             >
               View My Projects
             </Link>
 
             <Link
               href="/about"
-              className="rounded-xl border border-gray-300 px-6 py-3 font-medium hover:bg-gray-100"
+              className="rounded-xl border border-slate-700 px-6 py-3 font-medium text-slate-200 hover:bg-slate-800"
             >
               Learn About Me
             </Link>
           </div>
         </div>
 
-        <div className="rounded-3xl bg-gradient-to-br from-blue-600 to-slate-900 p-8 text-white shadow-xl">
-          <div className="mb-6 flex h-24 w-24 items-center justify-center rounded-full bg-white text-3xl font-bold text-blue-700">
+        <div className="rounded-3xl bg-gradient-to-br from-cyan-500 to-slate-900 p-8 text-white shadow-xl">
+          <div className="mb-6 flex h-24 w-24 items-center justify-center rounded-full bg-white text-3xl font-bold text-cyan-500">
             RA
           </div>
 

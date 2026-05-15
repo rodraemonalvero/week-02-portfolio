@@ -18,7 +18,7 @@ export default function AboutPage() {
   return (
     <main className="mx-auto max-w-5xl px-6 py-16">
       <div className="grid gap-10 md:grid-cols-[260px_1fr]">
-        <aside className="rounded-3xl bg-white p-6 text-center shadow">
+        <aside className="rounded-3xl border border-slate-800 bg-slate-900 p-6 text-center shadow">
           <div className="mx-auto mb-4 overflow-hidden rounded-full shadow-lg">
   <Image
     src="/profile.png"
@@ -30,7 +30,7 @@ export default function AboutPage() {
 </div>
 
           <h1 className="text-2xl font-bold">Rod Raemon Alvero</h1>
-          <p className="mt-2 text-gray-600">
+          <p className="mt-2 text-slate-400"
             Computer Science Student
           </p>
 
@@ -38,14 +38,14 @@ export default function AboutPage() {
             <a
               href="https://github.com/rodraemonalvero"
               target="_blank"
-              className="block rounded-lg bg-gray-100 px-4 py-2 hover:bg-gray-200"
+              className="block rounded-lg bg-slate-800 px-4 py-2 text-slate-100 hover:bg-slate-700"
             >
               GitHub Profile
             </a>
 
             <a
               href="mailto:rodraemon.alvero@cstu.edu"
-              className="block rounded-lg bg-blue-600 px-4 py-2 text-white hover:bg-blue-700"
+              className="block rounded-lg bg-cyan-500 px-4 py-2 text-slate-950 hover:bg-cyan-400"
             >
               Email Me
             </a>
@@ -55,7 +55,7 @@ export default function AboutPage() {
         <section>
           <h2 className="mb-4 text-3xl font-bold">About Me</h2>
 
-          <div className="space-y-4 text-gray-700">
+          <div className="space-y-4 text-slate-300">
             <p>
               My name is Rod Raemon Alvero, and I am a Computer Science student
               interested in software development, cybersecurity, cloud
@@ -91,7 +91,7 @@ export default function AboutPage() {
             {skills.map((skill) => (
               <li
                 key={skill}
-                className="rounded-xl bg-white px-4 py-3 font-medium shadow"
+                className="rounded-xl border border-slate-800 bg-slate-900 px-4 py-3 font-medium text-slate-100 shadow"
               >
                 {skill}
               </li>
