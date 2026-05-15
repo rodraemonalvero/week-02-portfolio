@@ -41,14 +41,14 @@ export default function HomePage() {
           </div>
         </div>
 
-        <div className="rounded-3xl bg-gradient-to-br from-cyan-500 to-slate-900 p-8 text-white shadow-xl">
+        <div className="rounded-3xl border border-cyan-400/30 bg-gradient-to-br from-cyan-500/90 via-blue-700/80 to-slate-950 p-8 text-white shadow-2xl shadow-cyan-500/20">
           <div className="mb-6 flex h-24 w-24 items-center justify-center rounded-full bg-white text-3xl font-bold text-cyan-500">
             RA
           </div>
 
           <h2 className="mb-3 text-2xl font-bold">Portfolio Focus</h2>
 
-          <ul className="space-y-3 text-blue-50">
+          <ul className="space-y-3 text-cyan-50">
             <li>• Full Stack Development</li>
             <li>• Cybersecurity Fundamentals</li>
             <li>• AI-Assisted Software Projects</li>

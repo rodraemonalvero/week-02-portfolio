@@ -18,7 +18,7 @@ export default function AboutPage() {
   return (
     <main className="mx-auto max-w-5xl px-6 py-16">
       <div className="grid gap-10 md:grid-cols-[260px_1fr]">
-        <aside className="rounded-3xl border border-cyan-500/20 bg-white/5 p-6 text-center shadow-2xl backdrop-blur-md">
+        <aside className="rounded-3xl border border-cyan-400/30 bg-slate-900/80 p-6 text-center shadow-2xl shadow-cyan-500/10 backdrop-blur-md">
           <div className="mx-auto mb-4 overflow-hidden rounded-full shadow-lg">
   <Image
     src="/profile.png"
@@ -30,9 +30,9 @@ export default function AboutPage() {
 </div>
 
           <h1 className="text-2xl font-bold">Rod Raemon Alvero</h1>
-          <p className="mt-2 text-slate-400"
-            Computer Science Student
-          </p>
+          <p className="mt-2 text-slate-400">
+  Computer Science Student
+</p>
 
           <div className="mt-6 space-y-2 text-sm">
             <a
@@ -53,7 +53,7 @@ export default function AboutPage() {
         </aside>
 
         <section>
-          <h2 className="mb-4 text-3xl font-bold">About Me</h2>
+          <h2 className="mb-4 text-3xl font-bold text-white">
 
           <div className="space-y-4 text-slate-300">
             <p>
@@ -83,7 +83,7 @@ export default function AboutPage() {
             </p>
           </div>
 
-          <h3 className="mt-10 mb-4 text-2xl font-semibold">
+          <h3 className="mt-10 mb-4 text-2xl font-semibold text-cyan-300">
             Skills and Technologies
           </h3>
 
@@ -91,7 +91,7 @@ export default function AboutPage() {
             {skills.map((skill) => (
               <li
                 key={skill}
-                className="rounded-xl border border-cyan-500/20 bg-white/5 px-4 py-3 font-medium text-slate-100 shadow-lg backdrop-blur-md hover:border-cyan-400 transition"
+                className="rounded-xl border border-cyan-400/30 bg-slate-900/80 px-4 py-3 font-medium text-slate-100 shadow-lg backdrop-blur-md transition hover:border-cyan-300 hover:bg-slate-800"
               >
                 {skill}
               </li>

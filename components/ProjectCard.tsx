@@ -14,11 +14,11 @@ export default function ProjectCard({
   link,
 }: ProjectCardProps) {
   return (
-    <article className="rounded-2xl border border-cyan-500/20 bg-white/5 p-6 shadow-2xl backdrop-blur-md transition hover:-translate-y-2 hover:border-cyan-400 hover:shadow-cyan-500/20">
+    <article className="rounded-2xl border border-cyan-400/30 bg-slate-900/80 p-6 shadow-2xl shadow-cyan-500/10 backdrop-blur-md transition hover:-translate-y-2 hover:border-cyan-300 hover:bg-slate-800/90">
       <div className="mb-3 flex items-center justify-between gap-4">
         <h2 className="text-xl font-bold">{title}</h2>
 
-        <span className="rounded-full bg-green-100 px-3 py-1 text-xs font-medium text-green-700">
+        <span className="rounded-full bg-emerald-400/15 px-3 py-1 text-xs font-medium text-emerald-300">
           {status}
         </span>
       </div>
